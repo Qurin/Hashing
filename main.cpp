@@ -7,11 +7,12 @@
 using namespace hash;
 
 int main() {
+	//variables inicializing
 	Hash hash;
-
 	string str;
 	int len;
 
+	//output
 	cin >> str >> len;
 	cout << hash.getHash(str, len) << endl;
 
